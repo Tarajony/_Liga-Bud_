@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #555;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        section {
+            display: none;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>БК "Ліга-Буд"</h1>
+    </header>
+
+    <nav>
+        <a href="javascript:void(0);" onclick="showSection('home')">Головна</a>
+        <a href="javascript:void(0);" onclick="showSection('about')">Про компанію</a>
+        <a href="javascript:void(0);" onclick="showSection('object')">Об'єкт</a>
+        <a href="javascript:void(0);" onclick="showSection('contact')">Контакти</a>
+    </nav>
+
+    <section id="home">
+        <h2>Головна</h2>
+        <p>Ласкаво просимо на головну сторінку
+ "Ліга-Буд" – місця, де збуваються ваші архітектурні мрії та плани на ідеальне житло. 
+Ми – це більше, ніж будівельна компанія; ми – команда творчих вирішень та інновацій, яка будує не просто стіни, але і затишок, який переповнений затишком та елегантністю.
+
+Наша мета – створювати не просто будівлі, але життєві простори, де кожен детально продуманий крок – це крок до вашого комфорту. Ми віримо у поєднання функціональності та естетики, де кожен проект – це унікальна історія, що оживає під нашими руками.
+
+Приєднуйтеся до "Ліга-Буд" та відкрийте для себе світ, де будівництво – це не тільки конструкція, але й творчий процес, який втілює ваші фантазії в реальність.</p>
+<img src="Master1.jpg" alt="" style="height: 400px;">
+    </section>
+
+    <section id="about">
+        <h2>Про компанію</h2>
+        <p>"Ліга-Буд" – це не просто будівельна компанія, це колектив індивідуальностей, які об'єднали свою енергію та таланти для створення чогось величного. Наша команда - це сплав досвіду та молодості, традицій та інновацій.
+
+Ми прагнемо більше, ніж просто спорудити будівлю – ми створюємо власне серце та душу кожного проекту. У нас кожен працівник – це не лише фахівець, але й творець, що вносить свій власний внесок у створення унікальних архітектурних шедеврів.
+
+Наша компанія - це не тільки побудова, але і взаємодія, відкритість до ідей та готовність втілювати ваші мрії у реальність. Ми віримо у партнерство, довіру та найвищі стандарти якості. "Ліга-Буд" – це не просто ім'я, це гарантія, що ваш будинок буде не тільки міцним, але і вишуканим, як ви самі.</p>
+<img src="Master4.jpg" alt="" style="height: 300px;"> <img src="Master3.jpg" alt="" style="height: 300px;">
+    </section>
+
+    <section id="object">
+        <h2>Об'єкт</h2>
+        <p>Поглибіться у світ майбутнього об'єкту будівель "Ліга-Буд", де кожне зображення – це погляд у майбутнє. З кожним ракурсом ви відкриєте унікальність форм, гармонію кольорів та витончений дизайн. Ці фотографії – це запрошення в подорож до вашого майбутнього простору, де кожен детально продуманий архітектурний елемент розкаже свою власну історію.</p>
+       <img src="1.jpg" alt="" style="height: 200px;">  <img src="2.jpg" alt="" style="height: 200px;">  <img src="3.jpg" alt="" style="height: 200px;">  <img src="4.jpg" alt="" style="height: 200px;">  <img src="5.jpg" alt="" style="height: 200px;">  <img src="6.jpg" alt="" style="height: 200px;">  <img src="7.jpg" alt="" style="height: 200px;">  <img src="8.jpg" alt="" style="height: 200px;">  <img src="9.jpg" alt="" style="height: 200px;">  <img src="10.jpg" alt="" style="height: 200px;">  <img src="11.jpg" alt="" style="height: 200px;">  <img src="12.jpg" alt="" style="height: 200px;">  <img src="13.jpg" alt="" style="height: 200px;">  <img src="14.jpg" alt="" style="height: 200px;">  <img src="15.jpg" alt="" style="height: 200px;">
+    </section>
+
+    <section id="contact">
+        <h2>Контакти</h2>
+        <p>Бажаєте дізнатися більше інформації або маєте питання? Зв'язатися з нами можна за допомогою нашого <a href="https://www.instagram.com/liga.bud?igsh=MWo2Y2tibGZ4cjdodg==" target="_blank">Instagram</a> або номером телефону: +380685861786.</p>
+    <img src="17.jpg" alt="" style="height: 400px;">
+    </section>
+
+</body>
+</html>
